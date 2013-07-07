@@ -1,0 +1,9 @@
+io:format("Initialize begin~n").
+
+code:add_pathz("g:/dropbox/dropbox/erlang").
+code:add_pathz("g:/erlang/usr/socket_dist").
+
+Path = code:get_path().
+
+io:format("Path: ~p~n", [Path]).
+io:format("Initialize End~n").
